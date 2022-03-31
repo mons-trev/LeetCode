@@ -18,12 +18,13 @@ public class l13 {
 		int sum = 0;
 		for(int i=0; i<s.length(); i++) { //012
 			if(s.charAt(i)=='I') {
-				if(s.charAt(i+1)=='V') {
+				//System.out.println("this");
+				if((i+1)<s.length()&&s.charAt(i+1)=='V') {
 					sum+=4;
 					i=i+1;
 					
 				}
-				else if(s.charAt(i+1)=='X') {
+				else if((i+1)<s.length()&&(i+1)<s.length()&&s.charAt(i+1)=='X') {
 					sum+=9;
 					i=i+1;
 					
@@ -40,11 +41,11 @@ public class l13 {
 				
 			}
 			else if(s.charAt(i)=='X') {
-				if(s.charAt(i+1)=='L') {
+				if((i+1)<s.length()&&s.charAt(i+1)=='L') {
 					sum+=40;
 					i=i+1;
 				}
-				else if(s.charAt(i+1)=='C') {
+				else if((i+1)<s.length()&&s.charAt(i+1)=='C') {
 					sum+=90;
 					i=i+1;
 				}
@@ -60,11 +61,11 @@ public class l13 {
 				
 			}
 			else if(s.charAt(i)=='C') {
-				if(s.charAt(i+1)=='D') {
+				if((i+1)<s.length()&&s.charAt(i+1)=='D') {
 					sum+=400;
 					i=i+1;
 				}
-				else if(s.charAt(i+1)=='M') {
+				else if((i+1)<s.length()&&s.charAt(i+1)=='M') {
 					sum+=900;
 					i=i+1;
 				}
