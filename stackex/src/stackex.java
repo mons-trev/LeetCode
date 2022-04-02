@@ -62,6 +62,8 @@ public class stackex {
 			System.out.println("성공");
 		}
 		else System.out.println("미통과");
+		
+		sc.close();
 	}
 
 }
