@@ -66,7 +66,7 @@ class dequeinfo {
 	}
 }
 public class deque {
-
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		dequeinfo deque= new dequeinfo();
@@ -75,7 +75,7 @@ public class deque {
 		deque.add_rear(1);
 		deque.add_rear(2);
 		deque.add_rear(3);
-		deque.get_rear();
+		deque.get_rear();//3
 		deque.add_front(4);//´Ù Ã¡¾î¿ä
 		deque.delete_rear();//3
 		deque.delete_rear();//2
