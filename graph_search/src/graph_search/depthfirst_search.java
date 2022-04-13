@@ -1,7 +1,6 @@
 package graph_search;
 
 import java.util.Arrays;
-import java.util.Vector;
 
 class graph {
 	int n;
@@ -41,11 +40,11 @@ class graph {
 		System.out.println(start+" "+count);
 		if(count==4) {
 			Arrays.fill(check, false); 
-			System.out.println("check배열 초기화");
+			//System.out.println("check배열 초기화");
 		}
 	}
-	int [] bfsqueue = new int[this.graph.length];
-	public void bfs(int start) {
+	//int [] bfsqueue = new int[this.graph.length];
+	/* public void bfs(int start) {
 		System.out.print(start);
 		check[start]=true;
 		for(int i=0; i<n; i++) {
@@ -53,6 +52,8 @@ class graph {
 		}
 		
 	}
+	
+	*/
 }
 public class depthfirst_search {
 
@@ -68,7 +69,7 @@ public class depthfirst_search {
 		fordfs.insert_node(1, 3);
 		fordfs.print();
 		fordfs.dfs(0);
-		Vector<Integer> a= new 
+
 	}
 
 }
